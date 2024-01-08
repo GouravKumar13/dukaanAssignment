@@ -7,8 +7,8 @@ function App () {
 
 
   return (
-    <div className="flex">
-      < SideBar />
+    <div className="flex max-w-screen-2xl">
+      <SideBar />
       <MainBody />
     </div >
   )
