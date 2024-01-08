@@ -1,3 +1,4 @@
+import React from 'react';
 import DataTable from 'react-data-table-component';
 
 const columns = [
@@ -161,14 +162,19 @@ const data = [
 ]
 
 export function Table () {
-    return (
-        <DataTable
-            className=''
-            title="Transactions|This Month "
 
-            columns={ columns }
-            data={ data }
-            pagination
-        />
+    return (
+        <>
+
+            <DataTable
+
+
+
+                columns={ columns }
+                data={ data }
+
+            />
+
+        </>
     );
 };
