@@ -1,19 +1,19 @@
 // import React from 'react'
-import Nishyanlogo from "../assets/nishyan.png"
-import arrowDown from "../assets/Icons/arrowdown.png"
-import Home from '../assets/icons/Home.png'
-import Analytics from "../assets/Icons/Analytics.png"
-import Order from "../assets/Icons/orders.png"
-import Products from "../assets/Icons/products.png"
-import Delivery from "../assets/Icons//Dilivary.png"
-import Marketing from "../assets/Icons/marketing.png"
-import payments from "../assets/Icons/payments.png"
-import tools from "../assets/Icons/tools.png"
-import discount from "../assets/Icons/discount.png"
-import audience from "../assets/Icons/Audiance.png"
-import appearance from "../assets/Icons/Appearance.png"
-import plugins from "../assets/Icons/plugins.png"
-import wallet from "../assets/Icons/wallet.png"
+import NishyanLogo from "../../public/nishyan.png"
+import arrowDown from "../../public/Icons/arrowdown.png"
+import Home from '../../public/Icons/Home.png'
+import Analytics from "../../public/Icons/Analytics.png"
+import Order from "../../public/Icons/orders.png"
+import Products from "../../public/Icons/products.png"
+import Delivery from "../../public/Icons/Dilivary.png"
+import Marketing from "../../public/Icons/Marketing.png"
+import payments from "../../public/Icons/payments.png"
+import tools from "../../public/Icons/tools.png"
+import discount from "../../public/Icons/Discount.png"
+import audience from "../../public/Icons/Audiance.png"
+import appearance from "../../public/Icons/Appearance.png"
+import plugins from "../../public/Icons/plugins.png"
+import wallet from "../../public/Icons/wallet.png"
 const SideBar = () => {
     const utils = [
         {
@@ -74,7 +74,7 @@ const SideBar = () => {
 
                 <div className='flex items-center justify-between '>
                     <div className="flex gap-2">
-                        <div className='w-[39px] h-[39px] '><img src={ Nishyanlogo } alt="nishyan" className='object-contain rounded' /></div>
+                        <div className='w-[39px] h-[39px] '><img src={ NishyanLogo } alt="nishyan" className='object-contain rounded' /></div>
                         <div className='text-white'>
                             <h1 className='text-[15px] font-medium hig '>Nishyan</h1>
                             <p className='underline text-[13px]'>Visit store</p>

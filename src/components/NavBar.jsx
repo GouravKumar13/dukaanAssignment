@@ -1,6 +1,6 @@
 
-import NavBarIcon from "../assets/Icons/navIcon1.png"
-import polygon from "../assets/Icons/Polygon 2.png"
+import NavBarIcon from "../../public/Icons/navIcon1.png"
+import polygon from "../../public/Icons/Polygon 2.png"
 
 const NavBar = () => {
     return (

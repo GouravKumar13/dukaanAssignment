@@ -2,8 +2,8 @@ import React from 'react'
 import { Table } from './Table'
 
 import Pagination from '@mui/material/Pagination';
-import sort from "../assets/Icons/sort.png"
-import download from "../assets/Icons/Combined Shape.png"
+import sort from "../../public/Icons/sort.png"
+import download from "../../public/Icons/Combined Shape.png"
 
 
 const MainSection = () => {
