@@ -4,7 +4,7 @@ import polygon from "../../public/Icons/Polygon 2.png"
 
 const NavBar = () => {
     return (
-        <div className='z-0 flex h-16 w-full items-center justify-between px-10 border-b bg-white border-b-slate-300'>
+        <div className='z-0 flex h-16 w-full items-center justify-between px-[32px] py-[12px] border-b bg-white border--b-[#D9D9D9]'>
             <div className='flex items-center gap-3 cursor-pointer ' >
                 <p className='text-[15px]'>Payments</p>
                 <p className='flex text-[#4D4D4D]  items-center gap-2'><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={ 1.5 } stroke="currentColor" className="w-[12.6px] h-[12.6px]">

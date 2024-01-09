@@ -10,10 +10,10 @@ const MainSection = () => {
     const [currentPage, setCurrentPage] = React.useState(1)
     return (
 
-        <div className=' flex flex-col mt-5 max-w-[1152px] justify-center    '>
+        <div className=' flex flex-col mt-5 max-w-[1152px] justify-center mb-[32px] rounded-lg   drop-shadow-md '>
             <div className='flex justify-between mb-5'>
                 <h1 className='font-medium text-[20px] '>Overview</h1>
-                <div className='flex border text-[16px] bg-white border-[#D9D9D9] p-1 rounded py-[6px] pl-[14px]'>
+                <div className='flex border text-[16px]  border-[#D9D9D9] p-1 rounded py-[6px] pl-[14px]'>
                     <button className='text-[#4D4D4D]'>Last Month
                     </button>
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={ 1.5 } stroke="currentColor" className="w-6 h-6">

@@ -69,7 +69,7 @@ const SideBar = () => {
     ]
 
     return (
-        <div className='bg-[#1E2640] flex flex-col justify-between   p-2 w-[208px] z-10'>
+        <div className='bg-[#1E2640] flex flex-col justify-between   px-[10px] py-4 '>
             <div className="flex flex-col gap-8 m-2 ">
 
                 <div className='flex items-center justify-between '>
@@ -102,7 +102,7 @@ const SideBar = () => {
                 </div>
             </div>
 
-            <div className="bg-[#353C53] items-center justify-center  rounded w-[192px] h-[58px] flex  gap-2">
+            <div className="bg-[#353C53] items-center justify-center px-[12px] py-[6px]  rounded w-[192px] h-[58px] flex  gap-3">
                 <div className="bg-[#FFFFFF1A] w-[36px] rounded h-[36px] flex items-center justify-center">
                     <img src={ wallet } alt="" className="w-[24px] h-[24px]" />
                 </div>

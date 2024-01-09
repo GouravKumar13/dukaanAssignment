@@ -6,6 +6,9 @@ const columns = [
         name: 'Order ID',
         selector: row => row.orderId,
         sortable: true,
+        style: {
+            color: "#146EB4"
+        }
     },
     {
         name: 'Order date',
@@ -160,6 +163,19 @@ const data = [
     },
 
 ]
+const tableCustomStyles = {
+    headCells: {
+        style: {
+            fontSize: '14px',
+            fontWeight: 'medium',
+            paddingLeft: '12px',
+            justifyContent: 'start',
+            backgroundColor: '#F2F2F2'
+        },
+    },
+
+}
+
 
 export function Table () {
 
@@ -167,9 +183,7 @@ export function Table () {
         <>
 
             <DataTable
-
-
-
+                customStyles={ tableCustomStyles }
                 columns={ columns }
                 data={ data }
 

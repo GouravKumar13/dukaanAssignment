@@ -7,7 +7,7 @@ function App () {
 
 
   return (
-    <div className="flex max-w-screen-2xl">
+    <div className="flex max-w-screen-2xl mx-auto">
       <SideBar />
       <MainBody />
     </div >
